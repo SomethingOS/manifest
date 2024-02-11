@@ -20,7 +20,11 @@
   <include name="system.xml"/>
   <include name="vendor.xml"/>
 
-  <!-- AOSPA -->
+  <!-- Something -->
+  <remote  name="something"
+           fetch="git@github.com:SomethingOS"
+           revision="uvite"/>
+
   <remote  name="aospa"
            fetch=".."
            review="gerrit.aospa.co"
@@ -38,6 +42,10 @@
            fetch="https://gitlab.com/ThankYouMario"
            revision="uvite" />
 
+  <remote name="blobs-something"
+           fetch="git@gitlab.com:pixeloid-android"
+           revision="uvite" />
+
   <remote  name="github"
            fetch="https://github.com" />
 
@@ -49,6 +57,7 @@
 
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
+  <include name="something.xml"/>
   <include name="obsolete.xml"/>
 
 </manifest>
