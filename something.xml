@@ -7,7 +7,7 @@
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="android_framework_base" remote="something" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="something" />
 
   <!-- Vendor (SomethingOS) -->
   <project path="vendor/aospa" name="android_vendor_aospa" remote="something" >
