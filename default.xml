@@ -43,7 +43,7 @@
            revision="uvite" />
 
   <remote name="blobs-something"
-           fetch="git@gitlab.com:pixeloid-android"
+           fetch="https://gitlab.com/somethingos"
            revision="uvite" />
 
   <remote  name="github"
