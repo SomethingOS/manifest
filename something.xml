@@ -4,6 +4,7 @@
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="something" />
   <project path="packages/apps/SomethingSettings" name="android_packages_apps_SomethingSettings" remote="something" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="something" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
@@ -15,6 +16,7 @@
   </project>
   <project path="vendor/aospa/prebuilt" name="android_vendor_aospa_prebuilt" remote="blobs-something" />
   <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="something" />
+  <project path="vendor/SomethingOTA" name="android_vendor_SomethingOTA" remote="something" />
 
   <project path="build/make" name="android_build" remote="something" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
