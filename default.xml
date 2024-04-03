@@ -22,7 +22,7 @@
 
   <!-- Something -->
   <remote  name="something"
-           fetch="git@github.com:SomethingOS"
+           fetch="https://github.com/SomethingOS"
            revision="uvite"/>
 
   <remote  name="aospa"
