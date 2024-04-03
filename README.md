@@ -39,7 +39,7 @@ $ cd SomethingOS
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u git@github.com:SomethingOS/manifest -b uvite
+$ repo init -u https://github.com/SomethingOS/manifest -b uvite
 ```
 
 ### Downloading the source tree ###
