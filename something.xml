@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Manifest -->
+  <project path="manifest" name="manifest" remote="something" />
+
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="something" />
   <project path="packages/apps/SomethingSettings" name="android_packages_apps_SomethingSettings" remote="something" />
