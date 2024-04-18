@@ -29,6 +29,16 @@ $ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
 $ chmod a+x ~/.bin/repo
 ```
 
+### Setting up Build Environment ###
+
+```bash
+# Download the Android build environment setup script from the official repository
+$ wget https://raw.githubusercontent.com/akhilnarang/scripts/master/setup/android_build_env.sh
+
+# Execute the Android build environment setup script with superuser privileges
+$ sudo bash android_build_env.sh
+```
+
 ### Initializing Repo ###
 
 ```bash
@@ -85,18 +95,24 @@ $ cd WORKSPACE
 # ...and run the builder tool.
 $ ./rom-build.sh DEVICE
 ```
-### Writing good commit messages ###
 
-You will be asked a commit message when you run `git commit`. Writing a good commit message is
-often hard, but it is also essential as these messages will stay around with your changes and
-will be seen by others when looking back at the project history.
+### Crafting Captivating Commit Messages ###
 
-A few general pointers to keep in mind when writing the commit message are that you should use
-imperative as it matches the style used by the `git merge` and `git revert` commands (that means
-"Fix bug" is preferred over "Fixes bug", "Fixed bug" and others) and that you should write the
-first line of the commit message as a summary of the commit. It should always be capitalized and
-followed by an empty line. You might optionally include the project name at the start and try to
-keep it to 50 characters when possible as it is used in various logs, including "one line" logs.
+Ah, the noble art of composing the perfect commit message—a task both daunting and delightful in equal measure. 
+When that prompt beckons after typing `git commit`, remember, you're not just jotting down notes;
+you're etching your mark into the annals of project history.
+
+So, how do you ensure your commit messages sparkle like gems in the repository? Here's the playbook:
+
+- **Embrace Imperative Verbs:** Embrace the power of imperatives! Your commit message should command attention, just like `git merge` and `git revert`. "Fix bug" packs a punch, while "Fixes bug" falls flat. Choose wisely.
+
+- **Summarize with Panache:** The first line of your commit message is the headline act—a snapshot of your changes. Start with a capitalized summary, followed by an empty line. Bonus points for brevity; aim for 50 characters or less for maximum impact in logs.
+
+Remember, with each commit, you're not just shaping code—you're weaving narratives, shaping perceptions, and leaving a legacy. 
+So, let your commit messages be a testament to your coding prowess and storytelling finesse!
+
+Feel free to sprinkle in any personal touches or additional tips that resonate with your style!
+
 
 ### Code ###
 
