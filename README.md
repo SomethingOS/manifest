@@ -29,6 +29,16 @@ $ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
 $ chmod a+x ~/.bin/repo
 ```
 
+### Setting up Build Environment ###
+
+```bash
+# Download the Android build environment setup script from the official repository
+$ wget https://raw.githubusercontent.com/akhilnarang/scripts/master/setup/android_build_env.sh
+
+# Execute the Android build environment setup script with superuser privileges
+$ sudo bash android_build_env.sh
+```
+
 ### Initializing Repo ###
 
 ```bash
