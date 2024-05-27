@@ -21,6 +21,7 @@
   <!-- Vendor (SomethingOS) -->
   <project path="vendor/aospa" name="android_vendor_aospa" remote="something" >
     <linkfile src="build.sh" dest="rom-build.sh" />
+    <linkfile src="json.sh" dest="generate-json.sh" />
   </project>
   <project path="vendor/aospa/prebuilt" name="android_vendor_aospa_prebuilt" remote="blobs-something" />
   <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="something" />
