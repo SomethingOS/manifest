@@ -75,6 +75,8 @@ $ repo sync PROJECT
 
 ## Generating your sign keys ##
 
+For official, please use [the SomethingOS keys](https://github.com/SomethingOS/sign-keys)
+
 From [Android Documentation](https://source.android.com/docs/core/ota/sign_builds?hl=en#:~:text=the%20test%2Dkeys%20are,you%20have%20access%20to.) :
 > Since the test-keys are publicly known, anybody can sign their own .apk files with the same keys, which may allow them to replace or hijack system apps built into your OS image. For this reason it is critical to sign any publicly released or deployed Android OS image with a special set of release-keys that only you have access to.
 
@@ -97,11 +99,12 @@ automatically. As the device value, you just feed it with the device codename (f
 -z : Will also generate a fastboot package\
 -s ~/.android-certs/ : Will use your sign keys
 
+
 ```bash
 # Go to the root of the source tree...
 $ cd WORKSPACE
 # ...and run the builder tool.
-$ ./rom-build.sh DEVICE -z -s ~/.android-certs/
+$ ./rom-build.sh DEVICE -z -s {keys_folder}
 ```
 ### Writing good commit messages ###
 
