@@ -21,6 +21,14 @@
   <include name="vendor.xml"/>
 
   <!-- Something -->
+  <remote  name="something-devices"
+           fetch="https://github.com/SomethingOS-Devices"
+           revision="uvite"/>
+
+  <remote  name="something-devices-prv"
+           fetch="ssh://git@github.com/SomethingOS-Devices"
+           revision="uvite"/>
+
   <remote  name="something"
            fetch="https://github.com/SomethingOS"
            revision="uvite"/>
